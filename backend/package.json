@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
+    "prod": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,6 +16,8 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "mysql": "^2.18.1",
     "socket.io": "^2.3.0"
   }
 }
