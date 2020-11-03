@@ -1,3 +1,2 @@
-# flairs
-Simple software for flairs
-jdijsidjsidjisjdisjid
+# Flairs
+Simple software for flairs.

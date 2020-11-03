@@ -6,7 +6,7 @@ const routes = express.Router();
 // routes.get('/rota', cont.index);
 
 
-routes.get('/', (req,res) => {
+routes.get('/login', (req,res) => {
     return res.json({
       MarkSays: 'Delete this!',
     });
