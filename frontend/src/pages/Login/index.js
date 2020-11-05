@@ -10,8 +10,8 @@ function Login() {
                 <div className="card">
                     <img src={Logo} />
                     <div className="textos">
-                        <input placeholder="E-mail"></input>
-                        <input placeholder="Senha"></input>
+                        <input placeholder="E-mail" type="email" required></input>
+                        <input placeholder="Senha" type="password" required></input>
                     </div>
                     <div className="btns">
                         <button className="btn-sub" type="submit">Enviar</button>
