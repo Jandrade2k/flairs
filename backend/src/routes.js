@@ -1,15 +1,11 @@
 const express = require('express');
 const routes = express.Router();
 
-// const cont = require('./controllers/<Controller>');
+const Login = require('./controllers/login');
 
-// routes.get('/rota', cont.index);
+routes.get('/teste', Login.teste);
+routes.post('/createuser', Login.create);
+routes.post('/login', Login.login);
 
-
-routes.get('/login', (req,res) => {
-    return res.json({
-      MarkSays: 'Delete this!',
-    });
-  });
 
 module.exports = routes;
